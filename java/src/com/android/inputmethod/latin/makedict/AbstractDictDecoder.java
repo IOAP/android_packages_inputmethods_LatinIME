@@ -60,8 +60,7 @@ public abstract class AbstractDictDecoder implements DictDecoder {
                         0 != (optionsFlags & FormatSpec.GERMAN_UMLAUT_PROCESSING_FLAG),
                         0 != (optionsFlags & FormatSpec.FRENCH_LIGATURE_PROCESSING_FLAG)),
                         new FormatOptions(version,
-                                0 != (optionsFlags & FormatSpec.SUPPORTS_DYNAMIC_UPDATE),
-                                0 != (optionsFlags & FormatSpec.CONTAINS_TIMESTAMP_FLAG)));
+                                0 != (optionsFlags & FormatSpec.SUPPORTS_DYNAMIC_UPDATE)));
         return header;
     }
 

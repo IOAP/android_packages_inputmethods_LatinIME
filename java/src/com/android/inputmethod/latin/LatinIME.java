@@ -1508,7 +1508,6 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
                 || codePoint == Constants.CODE_CLOSING_CURLY_BRACKET
                 || codePoint == Constants.CODE_CLOSING_ANGLE_BRACKET
                 || codePoint == Constants.CODE_PLUS
-                || codePoint == Constants.CODE_PERCENT
                 || Character.getType(codePoint) == Character.OTHER_SYMBOL;
     }
 
@@ -2340,9 +2339,9 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
             if (!mRecapitalizeStatus.isSetAt(mLastSelectionStart, mLastSelectionEnd)) {
                 mLastSelectionStart = mRecapitalizeStatus.getNewCursorStart();
                 mLastSelectionEnd = mRecapitalizeStatus.getNewCursorEnd();
+                mConnection.setSelection(mLastSelectionStart, mLastSelectionEnd);
             }
         }
-        mConnection.finishComposingText();
         mRecapitalizeStatus.rotate();
         final int numCharsDeleted = mLastSelectionEnd - mLastSelectionStart;
         mConnection.setSelection(mLastSelectionEnd, mLastSelectionEnd);

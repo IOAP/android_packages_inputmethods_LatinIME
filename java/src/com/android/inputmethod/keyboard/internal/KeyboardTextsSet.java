@@ -278,7 +278,7 @@ public final class KeyboardTextsSet {
         /* 50 */ "\u00A2,\u00A3,\u20AC,\u00A5,\u20B1",
         /* 51 */ "$",
         /* 52 */ "$,\u00A2,\u20AC,\u00A3,\u00A5,\u20B1",
-        /* 53 */ "!fixedColumnOrder!8,;,/,(,),#,!,\\,,?,&,\\%,+,\",-,:,',@",
+        /* 53 */ "!fixedColumnOrder!4,#,!,\\,,?,-,:,',@",
         // U+2020: "†" DAGGER
         // U+2021: "‡" DOUBLE DAGGER
         // U+2605: "★" BLACK STAR
@@ -400,7 +400,7 @@ public final class KeyboardTextsSet {
         /* 131 */ ".com",
         // popular web domains for the locale - most popular, displayed on the keyboard
         /* 132 */ "!hasLabels!,.net,.org,.gov,.edu",
-        /* 133 */ "!fixedColumnOrder!5,!hasLabels!,:)|:) ,;)|;) ,:(|:( ,:D|:D ,:P|:P ,^^|^^ ,-_-|-_- ,=-O|=-O ,:-P|:-P ,;-)|;-) ,:-(|:-( ,:-)|:-) ,:-!|:-! ,:-$|:-$ ,B-)|B-) ,:O|:O ,:-*|:-* ,:-D|:-D ,:\'(|:\'( ,:-\\\\|:-\\\\ ,O:-)|O:-) ,:-[|:-[ ",
+        /* 133 */ "!fixedColumnOrder!5,!hasLabels!,=-O|=-O ,:-P|:-P ,;-)|;-) ,:-(|:-( ,:-)|:-) ,:-!|:-! ,:-$|:-$ ,B-)|B-) ,:O|:O ,:-*|:-* ,:-D|:-D ,:\'(|:\'( ,:-\\\\|:-\\\\ ,O:-)|O:-) ,:-[|:-[ ",
         // U+2039: "‹" SINGLE LEFT-POINTING ANGLE QUOTATION MARK
         // U+203A: "›" SINGLE RIGHT-POINTING ANGLE QUOTATION MARK
         // U+00AB: "«" LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
@@ -785,7 +785,7 @@ public final class KeyboardTextsSet {
         null, null, null, null, null, null, null, null,
         /* ~52 */
         // U+00B7: "·" MIDDLE DOT
-        /* 53 */ "!fixedColumnOrder!9,;,/,(,),#,\u00B7,!,\\,,?,&,\\%,+,\",-,:,',@",
+        /* 53 */ "!fixedColumnOrder!4,\u00B7,!,\\,,?,:,;,@",
         /* 54~ */
         null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
         null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
@@ -1935,7 +1935,7 @@ public final class KeyboardTextsSet {
         // U+20AA: "₪" NEW SHEQEL SIGN
         /* 51 */ "\u20AA",
         /* 52 */ null,
-        /* 53 */ "!fixedColumnOrder!8,;,/,(|),)|(,#,!,\\,,?,&,\\%,+,\",-,:,',@",
+        /* 53 */ null,
         // U+2605: "★" BLACK STAR
         /* 54 */ "\u2605",
         /* 55 */ null,
