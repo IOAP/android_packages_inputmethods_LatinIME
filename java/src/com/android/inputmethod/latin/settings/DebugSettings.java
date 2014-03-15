@@ -113,7 +113,9 @@ public final class DebugSettings extends PreferenceFragment
                 mServiceNeedsRestart = true;
             }
         } else if (key.equals(PREF_FORCE_NON_DISTINCT_MULTITOUCH)
-                || key.equals(PREF_USE_ONLY_PERSONALIZATION_DICTIONARY_FOR_DEBUG)) {
+                || key.equals(KeyboardSwitcher.PREF_KEYBOARD_LAYOUT)) {
+            mServiceNeedsRestart = true;
+        } else if (key.equals(PREF_USE_ONLY_PERSONALIZATION_DICTIONARY_FOR_DEBUG)) {
             mServiceNeedsRestart = true;
         }
     }

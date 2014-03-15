@@ -299,9 +299,7 @@ public class Ver4DictEncoder implements DictEncoder {
         if (countSize != 1 && countSize != 2) {
             throw new RuntimeException("Strange size from getPtNodeCountSize : " + countSize);
         }
-        final int encodedPtNodeCount = (countSize == 2) ?
-                (ptNodeCount | FormatSpec.LARGE_PTNODE_ARRAY_SIZE_FIELD_SIZE_FLAG) : ptNodeCount;
-        mTriePos = BinaryDictEncoderUtils.writeUIntToBuffer(mTrieBuf, mTriePos, encodedPtNodeCount,
+        mTriePos = BinaryDictEncoderUtils.writeUIntToBuffer(mTrieBuf, mTriePos, ptNodeCount,
                 countSize);
     }
 

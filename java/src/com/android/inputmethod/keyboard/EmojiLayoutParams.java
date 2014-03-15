@@ -40,13 +40,13 @@ public class EmojiLayoutParams {
     public EmojiLayoutParams(Resources res) {
         final int defaultKeyboardHeight = ResourceUtils.getDefaultKeyboardHeight(res);
         final int defaultKeyboardWidth = ResourceUtils.getDefaultKeyboardWidth(res);
-        mKeyVerticalGap = (int) res.getFraction(R.fraction.key_bottom_gap_holo,
+        mKeyVerticalGap = (int) res.getFraction(R.fraction.key_bottom_gap_ics,
                 (int) defaultKeyboardHeight, (int) defaultKeyboardHeight);
-        mBottomPadding = (int) res.getFraction(R.fraction.keyboard_bottom_padding_holo,
+        mBottomPadding = (int) res.getFraction(R.fraction.keyboard_bottom_padding_ics,
                 (int) defaultKeyboardHeight, (int) defaultKeyboardHeight);
-        mTopPadding = (int) res.getFraction(R.fraction.keyboard_top_padding_holo,
+        mTopPadding = (int) res.getFraction(R.fraction.keyboard_top_padding_ics,
                 (int) defaultKeyboardHeight, (int) defaultKeyboardHeight);
-        mKeyHorizontalGap = (int) (res.getFraction(R.fraction.key_horizontal_gap_holo,
+        mKeyHorizontalGap = (int) (res.getFraction(R.fraction.key_horizontal_gap_ics,
                 defaultKeyboardWidth, defaultKeyboardWidth));
         mEmojiCategoryPageIdViewHeight =
                 (int) (res.getDimension(R.dimen.emoji_category_page_id_height));
